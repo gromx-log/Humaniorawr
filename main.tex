@@ -1,0 +1,85 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc} % For unicode UTF-8
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float}
+\usepackage{newfloat}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+\DeclareFloatingEnvironment[name=Second List of Figures]{secondfigure}
+\usepackage{natbib}
+\usepackage{caption}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\usepackage{xcolor}
+
+\usepackage{geometry} % For page setup
+\geometry{a4paper, left = 30mm, top = 20mm}
+
+\usepackage{enumitem} % For customizing enumarate item's label
+
+\usepackage{setspace}
+\onehalfspacing % Set document paragraph spacing to 1.5
+
+\usepackage{tabto}
+\usepackage{chngcntr} % For customizing and reset counter
+\usepackage{tocloft} % For customizing table of contents
+\usepackage[figurename=Gambar]{caption}
+\renewcommand{\tablename}{\textbf{Tabel}}
+
+\title{\textbf{LAPORAN KEGIATAN \\HUMANIORA}}
+\author{} % Remove author
+\date{} % Remove date
+
+
+\begin{center}
+    \includegraphics[width = 5cm]{assets/logo/logo_untar_vertikal.png}
+    
+    \vspace{1cm}
+    
+    \large\textbf{PANDANGAN AGAMA DALAM PENANAMAN MORAL ANTIKORUPSI KEPADA MASYARAKAT}
+    
+    \par\bigskip\bigskip
+    \large\textbf{Disusun oleh:}
+    \par\bigskip\bigskip
+    
+    \begin{minipage}{0.6\linewidth}
+        \large\textbf{%
+        Ellen Elvira \hfill 535240023 \\
+        Filbert Ferdinand \hfill 535240135 \\
+        Hannah Larissa Halim \hfill 535240015 \\
+        Jessica Winola \hfill 535240026 \\
+        }
+    \end{minipage}
+
+    \par\bigskip
+    \large\textbf{%
+        Pembimbing: \\
+        Viny Christanti Mawardi, S.Kom., M.Kom.
+    }
+    \par\bigskip\bigskip
+
+    \large\textbf{%
+        PROGRAM STUDI TEKNIK INFORMATIKA \\
+        FAKULTAS TEKNOLOGI INFORMASI \\
+        UNIVERSITAS TARUMANAGARA \\
+        JAKARTA \\
+        JUNI 2026
+    }
+\end{center}
+    \input{contents/lembar_pengesahan}
+    \input{contents/ringkasan}
+    \input{contents/table_of_contents}
+    \input{contents/daftar_tabel}
+    \input{contents/daftar_gambar}
+    \input{contents/daftar_lampiran}
+    \input{contents/pendahuluan}
+    \input{contents/solusi_permasalahan}
+    \input{contents/metode_pelaksanaan}
+    \input{contents/hasil_kegiatan}
+    \input{contents/kesimpulan_saran}
+    \input{contents/dafpus}
+    \input{contents/lampiran}
+\end{document}
