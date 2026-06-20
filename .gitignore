@@ -1,0 +1,41 @@
+# LaTeX Auxiliary Files
+*.aux
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Bibliography files (if bibtex or biber is used)
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# PythonTeX
+pytxcode
+pythontex-files-*/
+
+# Editor and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
